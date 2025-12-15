@@ -25,17 +25,6 @@ The project focuses on understanding the **SSD detection pipeline**, including f
 
 ---
 
-##  Project Structure
-ssd-object-detection-horses/
-├── ssd_model.py
-├── inference.py
-├── utils/
-├── video_input/
-├── output_video/
-└── README.md
-
----
-
 ##  Detection Pipeline
 1. Load a pretrained SSD model
 2. Preprocess video frames
