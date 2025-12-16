@@ -46,13 +46,11 @@ The total loss is a combination of:
 - **Localization loss** (Smooth L1 loss)
 - **Confidence loss** (Softmax cross-entropy)
 
-\[
-L = \frac{1}{N} (L_{conf} + \alpha L_{loc})
-\]
+L = 1/N (L(conf) + ⍺L(loc))
 
 where:
-- \(L_{conf}\) measures classification error  
-- \(L_{loc}\) measures bounding box regression error  
+- L(conf) measures classification error  
+- L(loc) measures bounding box regression error  
 
 This design allows SSD to achieve **fast inference** compared to two-stage detectors.
 
